@@ -10,7 +10,7 @@ function Header() {
         </div>
         {/* Menu */}
   <ul className="flex-1 flex items-center justify-center space-x-4 whitespace-nowrap">
-          <li className="text-gray-700 px-3 py-1 rounded-lg transition-all duration-300 cursor-pointer hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 hover:scale-105 hover:shadow-lg">Home</li>
+          <li className="text-gray-700 px-3 py-1 rounded-lg transition-all duration-300 cursor-pointer hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 hover:scale-105 hover:shadow-lg">Homeeee</li>
           <li className="text-gray-700 px-3 py-1 rounded-lg transition-all duration-300 cursor-pointer hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 hover:scale-105 hover:shadow-lg">Products</li>
           <li className="text-gray-700 px-3 py-1 rounded-lg transition-all duration-300 cursor-pointer hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 hover:scale-105 hover:shadow-lg">E-Store</li>
           <li className="text-gray-700 px-3 py-1 rounded-lg transition-all duration-300 cursor-pointer hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 hover:scale-105 hover:shadow-lg">iPhone Exclusive store</li>
