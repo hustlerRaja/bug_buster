@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <nav className="w-full border-b border-gray-300 bg-white">
+  <nav className="w-full border-b border-gray-300 bg-white fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between py-2 px-4">
         {/* Logo */}
         <div className="flex items-center">
