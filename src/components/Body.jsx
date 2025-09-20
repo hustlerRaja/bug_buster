@@ -4,9 +4,9 @@ import React from 'react';
   return (
     <div className="bg-black min-h-screen w-full">
       {/* Big iPhone Text Section */}
-      <div className="w-full flex items-center justify-center pt-12 pb-2">
+      <div className="w-full flex items-center justify-center pt-12 pb-0 ">
         <h1
-          className="text-[7vw] md:text-[6vw] font-extrabold text-orange-500 tracking-tight drop-shadow-lg animate-fadeup"
+          className="text-[8vw] md:text-[6vw] font-extrabold text-orange-500 tracking-tight drop-shadow-lg animate-fadeup"
         >
           iPhone17
         </h1>
