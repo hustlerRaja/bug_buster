@@ -208,11 +208,107 @@ import React from 'react';
           </div>
         </div>
       </section>
+      {/* Battery me. All-time high. Section */}
+      <section className="w-full bg-black flex flex-col items-center justify-center py-24">
+        <div className="max-w-6xl w-full mx-auto flex flex-col items-center justify-center relative">
+          {/* Top: Heading and description */}
+          <div className="w-full flex flex-col items-center justify-center mb-8">
+            <h2 className="text-[2.8rem] md:text-[3.2rem] font-extrabold text-white mb-4 leading-tight text-center" style={{letterSpacing: '-0.02em'}}>Battery me.<br />All-time high.</h2>
+            <p className="text-lg md:text-xl text-white mb-2 max-w-2xl font-normal text-center" style={{lineHeight: '1.3'}}>
+              The new internal design creates significant additional room for battery capacity, giving iPhone 17 Pro Max the best-ever <span className="font-bold">iPhone battery life</span> and up to 3 more hours per full charge compared to iPhone 15 Pro Max.
+            </p>
+          </div>
+          {/* Center: Hand holding phone */}
+          <div className="w-full flex items-center justify-center relative mb-8" style={{minHeight: '340px'}}>
+            <img src="/hand.jpg" alt="Hand holding phone" className="w-full max-w-none object-cover z-10" style={{position: 'relative'}} />
+            {/* Phone overlay (rectangular, not rounded) */}
+            <div className="absolute left-1/2 top-[54%]" style={{transform: 'translate(-50%, -50%)', zIndex: 20}}>
+              
+              {/* Overlay text */}
+              <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-between pointer-events-none">
+              </div>
+            </div>
+          </div>
+          {/* Bottom: Battery stats */}
+          <div className="w-full flex flex-row items-center justify-center gap-16 mt-2 mb-4  bg-transparent">
+            <div className="flex flex-col items-center">
+              <span className="text-orange-500 font-bold text-lg mb-1">Up to</span>
+              <span className="text-white font-extrabold text-3xl md:text-4xl mb-1">31 hours</span>
+              <span className="text-gray-300 text-base text-center">video playback on<br />iPhone 17 Pro</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <span className="text-orange-500 font-bold text-lg mb-1">Up to</span>
+              <span className="text-white font-extrabold text-3xl md:text-4xl mb-1">37 hours</span>
+              <span className="text-gray-300 text-base text-center">video playback on<br />iPhone 17 Pro Max</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <span className="text-orange-500 font-bold text-lg mb-1">Up to</span>
+              <span className="text-white font-extrabold text-3xl md:text-4xl mb-1">50% charge<br /><span className="text-orange-500 font-extrabold text-2xl md:text-3xl">in 20 minutes</span></span>
+              <span className="text-gray-300 text-base text-center">with high-wattage power adapter*</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
       
 
     
+      {/* Explore the line-up Section (above footer) */}
+      <section className="w-full bg-[#f5f5f7] py-20 flex flex-col items-center justify-center">
+        <div className="max-w-7xl w-full mx-auto px-6">
+          <div className="flex flex-row items-center justify-between mb-8">
+            <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 tracking-tight">Explore the line-up.</h2>
+            <a href="#" className="text-blue-600 text-lg font-semibold hover:underline">Compare all models &gt;</a>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            {/* iPhone 17 Pro */}
+            <div className="bg-white rounded-3xl shadow-xl flex flex-col items-center p-6 transition-all duration-300 hover:shadow-[0_0_40px_0_rgba(0,0,0,0.18)] hover:scale-105 hover:animate-glow-fade">
+              <img src="/max.png" alt="iPhone 17 Pro" className="w-48 h-48 object-cover rounded-2xl mb-4" />
+              <span className="text-orange-500 font-bold text-sm mb-2">New</span>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">iPhone 17 Pro</h3>
+              <p className="text-gray-700 text-center mb-2">Innovative design for ultimate performance and battery life.</p>
+              <span className="text-gray-900 font-semibold text-base">From ₹134900.00*</span>
+            </div>
+            {/* iPhone Air */}
+            <div className="bg-white rounded-3xl shadow-xl flex flex-col items-center p-6 transition-all duration-300 hover:shadow-[0_0_40px_0_rgba(0,0,0,0.18)] hover:scale-105 hover:animate-glow-fade">
+              <img src="/air.png" alt="iPhone Air" className="w-48 h-48 object-cover rounded-2xl mb-4" />
+              <span className="text-orange-500 font-bold text-sm mb-2">New</span>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">iPhone Air</h3>
+              <p className="text-gray-700 text-center mb-2">The thinnest iPhone ever. With the power of pro inside.</p>
+              <span className="text-gray-900 font-semibold text-base">From ₹119900.00*</span>
+            </div>
+            {/* iPhone 17 */}
+            <div className="bg-white rounded-3xl shadow-xl flex flex-col items-center p-6 transition-all duration-300 hover:shadow-[0_0_40px_0_rgba(0,0,0,0.18)] hover:scale-105 hover:animate-glow-fade">
+              <img src="/17.png" alt="iPhone 17" className="w-48 h-48 object-cover rounded-2xl mb-4" />
+              <span className="text-orange-500 font-bold text-sm mb-2">New</span>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">iPhone 17</h3>
+              <p className="text-gray-700 text-center mb-2">Even more delightful. Even more durable.</p>
+              <span className="text-gray-900 font-semibold text-base">From ₹82900.00*</span>
+            </div>
+            {/* iPhone 16 */}
+            <div className="bg-white rounded-3xl shadow-xl flex flex-col items-center p-6 transition-all duration-300 hover:shadow-[0_0_40px_0_rgba(0,0,0,0.18)] hover:scale-105 hover:animate-glow-fade">
+              <div className="w-48 h-48 flex items-center justify-center mb-4">
+                <img src="/16.png" alt="iPhone 16" className="w-40 h-40 object-contain rounded-2xl" style={{background: '#ffffffff'}} />
+              </div>
+              <span className="text-gray-900 font-bold text-sm mb-2">&nbsp;</span>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">iPhone 16</h3>
+              <p className="text-gray-700 text-center mb-2">Amazing performance.<br />Durable design.</p>
+              <span className="text-gray-900 font-semibold text-base">From ₹69900.00*</span>
+            </div>
+          </div>
+          <style>{`
+            @keyframes glow-fade {
+              0% { box-shadow: 0 0 0 0 rgba(0,0,0,0.0); opacity: 1; }
+              50% { box-shadow: 0 0 40px 0 rgba(0,0,0,0.18); opacity: 0.85; }
+              100% { box-shadow: 0 0 0 0 rgba(0,0,0,0.0); opacity: 1; }
+            }
+            .hover\:animate-glow-fade:hover {
+              animation: glow-fade 0.8s cubic-bezier(.7,.2,.3,1);
+            }
+          `}</style>
+        </div>
+      </section>
     </div>
   );
 }
