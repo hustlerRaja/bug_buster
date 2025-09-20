@@ -3,7 +3,7 @@ import React from 'react';
   function Body() {
   return (
     <div className="bg-black min-h-screen w-full">
-      {/* Big iPhone Text Section */}
+      
       <div className="w-full flex items-center justify-center pt-12 pb-0 ">
         <h1
           className="text-[8vw] md:text-[6vw] font-extrabold text-orange-500 tracking-tight drop-shadow-lg animate-fadeup"
@@ -12,7 +12,7 @@ import React from 'react';
         </h1>
       </div>
 
-      {/* Top Video Section */}
+      
       <div className="w-full overflow-hidden mb-8 pt-0 bg-black">
         <video
           src="/top_video.mp4"
@@ -24,7 +24,7 @@ import React from 'react';
         />
       </div>
 
-      {/* Fullscreen Phone Image with Modern Property Overlay */}
+      
       <section className="w-full relative flex items-center justify-center" style={{minHeight: '60vw', maxHeight: '600px'}}>
         <img
           src="/image1.jpg"
@@ -63,9 +63,9 @@ import React from 'react';
             animation: img-attract-glow 2.8s cubic-bezier(.7,.2,.3,1) infinite;
           }
         `}</style>
-        {/* Overlay properties left and right */}
+        
         <div className="absolute inset-0 flex items-center justify-between px-12 md:px-24" style={{zIndex: 2}}>
-          {/* Left side properties with animation */}
+          
           <div className="flex flex-col gap-8 items-start">
             <div className="bg-black bg-opacity-60 rounded-xl px-6 py-4 drop-shadow-2xl flex items-center gap-4 animate-pulse-prop" style={{maxWidth: '420px', wordBreak: 'break-word'}}>
               <span className="inline-block w-4 h-4 rounded-full" style={{background: 'rgba(255,255,255,0.7)'}}></span>
@@ -82,7 +82,7 @@ import React from 'react';
               </div>
             </div>
           </div>
-          {/* Right side properties with animation */}
+          
           <div className="flex flex-col gap-8 items-end">
             <div className="bg-black bg-opacity-60 rounded-xl px-6 py-4 drop-shadow-2xl flex items-center gap-4 animate-pulse-prop" style={{maxWidth: '420px', wordBreak: 'break-word'}}>
               <div className="w-full">
@@ -112,15 +112,15 @@ import React from 'react';
         </div>
       </section>
 
-      {/* Highlights Section (as per figure) */}
+      
       <section className="w-full bg-black py-20">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-[5vw] md:text-[4vw] font-bold text-white mb-0 text-left">Get the highlights.</h2>
         </div>
-        {/* Horizontally scrollable videos - full screen width, with overlay text */}
+        
         <div className="w-screen" style={{width: '100vw', minWidth: '100vw', maxWidth: '100vw', margin: 0, padding: 0}}>
           <div className="flex items-center justify-center" style={{width: '100vw', minWidth: '100vw', maxWidth: '100vw', height: '100vh', margin: 0, padding: 0}}>
-            {/* Video 1 with overlay */}
+            
             <div className="bg-black overflow-hidden flex flex-col items-center relative" style={{width: '100vw', minWidth: '100vw', maxWidth: '100vw', height: '100vh', margin: 0, padding: 0}}>
               <video
                 src="/medium%20(1).mp4"
@@ -164,7 +164,7 @@ import React from 'react';
       </section>
 
       
-      {/* Unibody Design Section (Apple-style) */}
+      
       <section className="w-full bg-black py-24">
         <div className="max-w-5xl mx-auto flex flex-col items-center justify-center px-4">
           <span className="text-2xl md:text-3xl font-semibold text-orange-500 mb-6">Design</span>
@@ -187,7 +187,7 @@ import React from 'react';
         </div>
       </section>
 
-      {/* New Section: image2 showcase (after iphone_series video section) */}
+      
 
       <section className="w-full bg-black flex flex-col items-center justify-center pt-0 pb-0">
         <div className="max-w-5xl w-full mx-auto flex flex-col items-center justify-center">
@@ -208,28 +208,28 @@ import React from 'react';
           </div>
         </div>
       </section>
-      {/* Battery me. All-time high. Section */}
+      
       <section className="w-full bg-black flex flex-col items-center justify-center py-24">
         <div className="max-w-6xl w-full mx-auto flex flex-col items-center justify-center relative">
-          {/* Top: Heading and description */}
+          
           <div className="w-full flex flex-col items-center justify-center mb-8">
             <h2 className="text-[2.8rem] md:text-[3.2rem] font-extrabold text-white mb-4 leading-tight text-center" style={{letterSpacing: '-0.02em'}}>Battery me.<br />All-time high.</h2>
             <p className="text-lg md:text-xl text-white mb-2 max-w-2xl font-normal text-center" style={{lineHeight: '1.3'}}>
               The new internal design creates significant additional room for battery capacity, giving iPhone 17 Pro Max the best-ever <span className="font-bold">iPhone battery life</span> and up to 3 more hours per full charge compared to iPhone 15 Pro Max.
             </p>
           </div>
-          {/* Center: Hand holding phone */}
+          
           <div className="w-full flex items-center justify-center relative mb-8" style={{minHeight: '340px'}}>
             <img src="/hand.jpg" alt="Hand holding phone" className="w-full max-w-none object-cover z-10" style={{position: 'relative'}} />
-            {/* Phone overlay (rectangular, not rounded) */}
+            
             <div className="absolute left-1/2 top-[54%]" style={{transform: 'translate(-50%, -50%)', zIndex: 20}}>
               
-              {/* Overlay text */}
+              
               <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-between pointer-events-none">
               </div>
             </div>
           </div>
-          {/* Bottom: Battery stats */}
+          
           <div className="w-full flex flex-row items-center justify-center gap-16 mt-2 mb-4  bg-transparent">
             <div className="flex flex-col items-center">
               <span className="text-orange-500 font-bold text-lg mb-1">Up to</span>
@@ -254,7 +254,7 @@ import React from 'react';
       
 
     
-      {/* Explore the line-up Section (above footer) */}
+      
       <section className="w-full bg-[#f5f5f7] py-20 flex flex-col items-center justify-center">
         <div className="max-w-7xl w-full mx-auto px-6">
           <div className="flex flex-row items-center justify-between mb-8">
@@ -262,7 +262,7 @@ import React from 'react';
             <a href="#" className="text-blue-600 text-lg font-semibold hover:underline">Compare all models &gt;</a>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {/* iPhone 17 Pro */}
+            
             <div className="bg-white rounded-3xl shadow-xl flex flex-col items-center p-6 transition-all duration-300 hover:shadow-[0_0_40px_0_rgba(0,0,0,0.18)] hover:scale-105 hover:animate-glow-fade">
               <img src="/max.png" alt="iPhone 17 Pro" className="w-48 h-48 object-cover rounded-2xl mb-4" />
               <span className="text-orange-500 font-bold text-sm mb-2">New</span>
@@ -270,7 +270,7 @@ import React from 'react';
               <p className="text-gray-700 text-center mb-2">Innovative design for ultimate performance and battery life.</p>
               <span className="text-gray-900 font-semibold text-base">From ₹134900.00*</span>
             </div>
-            {/* iPhone Air */}
+            
             <div className="bg-white rounded-3xl shadow-xl flex flex-col items-center p-6 transition-all duration-300 hover:shadow-[0_0_40px_0_rgba(0,0,0,0.18)] hover:scale-105 hover:animate-glow-fade">
               <img src="/air.png" alt="iPhone Air" className="w-48 h-48 object-cover rounded-2xl mb-4" />
               <span className="text-orange-500 font-bold text-sm mb-2">New</span>
@@ -278,7 +278,7 @@ import React from 'react';
               <p className="text-gray-700 text-center mb-2">The thinnest iPhone ever. With the power of pro inside.</p>
               <span className="text-gray-900 font-semibold text-base">From ₹119900.00*</span>
             </div>
-            {/* iPhone 17 */}
+            
             <div className="bg-white rounded-3xl shadow-xl flex flex-col items-center p-6 transition-all duration-300 hover:shadow-[0_0_40px_0_rgba(0,0,0,0.18)] hover:scale-105 hover:animate-glow-fade">
               <img src="/17.png" alt="iPhone 17" className="w-48 h-48 object-cover rounded-2xl mb-4" />
               <span className="text-orange-500 font-bold text-sm mb-2">New</span>
@@ -286,7 +286,7 @@ import React from 'react';
               <p className="text-gray-700 text-center mb-2">Even more delightful. Even more durable.</p>
               <span className="text-gray-900 font-semibold text-base">From ₹82900.00*</span>
             </div>
-            {/* iPhone 16 */}
+            
             <div className="bg-white rounded-3xl shadow-xl flex flex-col items-center p-6 transition-all duration-300 hover:shadow-[0_0_40px_0_rgba(0,0,0,0.18)] hover:scale-105 hover:animate-glow-fade">
               <div className="w-48 h-48 flex items-center justify-center mb-4">
                 <img src="/16.png" alt="iPhone 16" className="w-40 h-40 object-contain rounded-2xl" style={{background: '#ffffffff'}} />
